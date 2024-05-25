@@ -1,0 +1,40 @@
+:root {
+    /* popping */
+    /* --back-color: #753516;
+    --primary-color: #AF6F33;
+    --header-back: #9DB4BA;
+    --header-text: #210E0D;
+    --bc: #E2D2C1; */
+ 
+    /* milky way */
+    /* --back-color: #7B5536;
+    --primary-color: #DEE2E3;
+    --header-back: #450309;
+    --header-text: #B09647;
+    --bc: #64A532; */
+  
+    /* milky way */
+    --back-color: #8E3229;
+    --primary-color: #AEBB35;
+    --header-back: #2F1D16;
+    --header-text: #D0BDAA;
+    --bc: #A37537;
+}
+
+body {
+    background-color: var(--back-color);
+    color: var(--primary-color);
+}
+
+header {
+    background-color: var(--header-back);
+    color: var(--header-text);
+}
+
+.box img {
+    border: 2px solid var(--primary-color);
+}
+
+.box {
+    background-color: var(--bc);
+}
